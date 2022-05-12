@@ -1,0 +1,59 @@
+2022-05-12T20:07:44.658Z	2cae022e-ef27-42d9-9698-10fef6d4f5e2	INFO	{
+method: 'post',
+url: 'http://mobile311-dev.sfgov.org/open311/v2/requests.json?api_key=XXXXXXXXX',
+headers: {
+'content-type': 'multipart/form-data; boundary=--------------------------651732339133007190093631'
+},
+data: FormData {
+_overheadLength: 769,
+_valueLength: 226,
+_valuesToMeasure: [],
+writable: false,
+readable: true,
+dataSize: 0,
+maxDataSize: 2097152,
+pauseStreams: true,
+_released: false,
+_streams: [
+'----------------------------651732339133007190093631\r\n' +
+'Content-Disposition: form-data; name="service_code"\r\n' +
+'\r\n',
+'518d5892601827e3880000c5',
+[Function: bound ],
+'----------------------------651732339133007190093631\r\n' +
+'Content-Disposition: form-data; name="lat"\r\n' +
+'\r\n',
+'37.728151334',
+[Function: bound ],
+'----------------------------651732339133007190093631\r\n' +
+'Content-Disposition: form-data; name="long"\r\n' +
+'\r\n',
+'-122.390550301',
+[Function: bound ],
+'----------------------------651732339133007190093631\r\n' +
+'Content-Disposition: form-data; name="address_string"\r\n' +
+'\r\n',
+'San Francisco',
+[Function: bound ],
+'----------------------------651732339133007190093631\r\n' +
+'Content-Disposition: form-data; name="description"\r\n' +
+'\r\n',
+'Other Loose Garbage / Debris',
+[Function: bound ],
+'----------------------------651732339133007190093631\r\n' +
+'Content-Disposition: form-data; name="media_url"\r\n' +
+'\r\n',
+'https://d2cwu4hex8j4mq.cloudfront.net/public/digest/uwmbFgakMn-DJI_0567-size-large-detection-1.jpg',
+[Function: bound ],
+'----------------------------651732339133007190093631\r\n' +
+'Content-Disposition: form-data; name="attribute[request_type]"\r\n' +
+'\r\n',
+'Other_loose_garbage_debris_yard_waste',
+[Function: bound ]
+],
+_currentStream: null,
+_insideLoop: false,
+_pendingNext: false,
+_boundary: '--------------------------651732339133007190093631'
+}
+}
